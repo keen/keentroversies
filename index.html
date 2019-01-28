@@ -135,6 +135,7 @@
             .query({
                 analysis_type: 'count',
                 event_collection: 'pageviews',
+                filters: [{"operator":"contains","property_name":"url.full","property_value":"is_sandwich=true"}],
                 timeframe: 'this_30_days'
             })
             .then(function (results) {
@@ -147,6 +148,7 @@
             .query({
                 analysis_type: 'count',
                 event_collection: 'pageviews',
+                filters: [{"operator":"contains","property_name":"url.full","property_value":"is_sandwich=false"}],
                 timeframe: 'this_30_days'
             })
             .then(function (results) {
