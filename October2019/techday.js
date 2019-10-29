@@ -9,7 +9,7 @@ const geoProject = new KeenAnalysis({
 });
 
 // updated variable
-var keentroversyId = "TechDaySept2019"
+var keentroversyId = "October2019"
 
 Keen.ready(function () {
     //------------------
@@ -17,10 +17,10 @@ Keen.ready(function () {
     //------------------
     const voteOne = new KeenDataviz({
         container: '#voteOne', //querySelector
-        title: 'Waffle Fries'
+        title: 'Tricks'
     });
 
-    var firstUrlArg = '/sept_techday_2019/techday.html?option_one=true'
+    var firstUrlArg = '/October2019/index.html?option_one=true'
 
     client
         .query({
@@ -54,10 +54,10 @@ Keen.ready(function () {
     //-------------------
     const voteTwo = new KeenDataviz({
         container: '#voteTwo', //querySelector
-        title: 'Curly Fries'
+        title: 'Treats'
     });
 
-    var secondUrlArg = '/sept_techday_2019/techday.html?option_two=true'
+    var secondUrlArg = '/October2019/index.html?option_two=true'
 
     client
         .query({
