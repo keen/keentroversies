@@ -293,14 +293,14 @@ const chart = new KeenDataviz({
         event_collection: 'pageviews',
         timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
         group_by: [
-            'geo.province'
+            'geo.country'
         ],
         filters: [
-        {
-            propertyName: 'geo.country',
-            operator: 'eq',
-            propertyValue: 'United States',
-        },
+        //{
+        //    propertyName: 'geo.country',
+        //    operator: 'eq',
+        //    propertyValue: 'United States',
+        //}
         {
             "operator": "eq",
             "property_name": "keentroversyId",
