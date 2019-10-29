@@ -283,7 +283,7 @@ const chart = new KeenDataviz({
     renderOnVisible: true,
     palette: 'modern',
     choropleth: {
-        map: 'us'
+        map: 'world'
     }
   });
   
