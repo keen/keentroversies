@@ -1,0 +1,31 @@
+#hero {position: relative;height: 374px;}
+
+#hero::after {content: "";background:rgba(255,255,255,.8);position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:1;}
+#hero .container {position: relative;z-index:5;margin: 0 auto;padding-top: 45px;max-width: 755px;text-align:center;}
+#hero .container .subTitle {display: block;color: #37466A;font-family: "Raleway", sans-serif;font-weight: 600;font-size: 22px;line-height: 36px;margin-bottom:32px;}
+#hero .container h1 {margin-bottom: 28px;}
+#hero .container p {font-size: 16px;font-family: "Raleway", sans-serif;line-height: 26px;}
+
+#voting_blocks {padding: 95px 0 100px;}
+
+#voting_blocks .container {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;}
+#voting_blocks .container .vote_block {-webkit-box-flex: 1;-ms-flex: 1;flex: 1;margin: 0 25px;}
+#voting_blocks .container .vote_block .keen-dataviz-box {background: none !important;display: -webkit-box;display: -ms-flexbox;display: flex;}
+#voting_blocks .container .vote_block .keen-dataviz-box .keen-dataviz-metric-title {margin-bottom:20px;font-size: 22px;font-family: "Raleway", sans-serif;font-weight: 600;color: #37466A;line-height: 25px;display: block;text-align:center;-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1;}
+#voting_blocks .container .vote_block .keen-dataviz-box .keen-dataviz-metric-value {font-size: 50px;font-family: "Raleway", sans-serif;font-weight: 600;color: #37466A;line-height: 65px;display: block;text-align:center;-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;}
+#voting_blocks .container .vote_block .keen-dataviz-box .keen-dataviz-metric-value img {max-width: 100%;height: auto;border-radius: 5px;}
+#voting_blocks .container .vote_block .vote {background: #20b4e5;color: #FFF;display: block;text-align: center;font-size: 20px;font-weight: 500;font-family: "Raleway", sans-serif;text-transform: uppercase;border-radius: 5px;padding: 5px 0 2px;text-decoration: none;}
+#voting_blocks .container .vote_block .vote:hover {background: #179cc7;}
+
+#results {display: none;}
+#results .container {border-top: 1px solid #979797;padding-top: 60px;padding-bottom:60px;}
+#results .container h2 {font-size: 48px;line-height: 72px;font-weight: 600;text-align:center;display:block;}
+#results .container .result_blocks .flex {display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:35px;}
+#results .container .result_blocks .flex .num_votes {-webkit-box-flex:1;-ms-flex:1;flex:1;border: 1px solid #999;padding: 10px;box-sizing: border-box;text-align: center;}
+#results .container .result_blocks .flex .num_votes .keen-dataviz-title {font-family:"Raleway", sans-serif;font-size: 22px; font-weight: 600}
+#results .container .result_blocks .flex .average_time {-ms-flex-preferred-size: 305px;flex-basis: 305px;margin-left:35px}
+#results .container .result_blocks .flex #voteMetric {height: 100%;}
+#results .container .result_blocks .flex #voteMetric .keen-dataviz-metric {color:#4d4d4d;background: #FFF !important;border: 1px solid #999;padding: 10px;box-sizing: border-box;}
+#results .container .result_blocks .flex #voteMetric .keen-dataviz-metric-value {color:#20b4e5;}
+#results .container .result_blocks .votes_by_device {border: 1px solid #999;padding: 10px;box-sizing: border-box;text-align: center;}
+#results .container .result_blocks .votes_by_device .keen-dataviz-title {font-family:"Raleway", sans-serif;font-size: 22px; font-weight: 600}
