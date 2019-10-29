@@ -9,7 +9,7 @@ const geoProject = new KeenAnalysis({
 });
 
 // updated variable
-var keentroversyId = "October2019"
+var keentroversyId = "Oct2019"
 
 Keen.ready(function () {
     //------------------
