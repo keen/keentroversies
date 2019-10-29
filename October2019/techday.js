@@ -282,9 +282,9 @@ const chart = new KeenDataviz({
     title: 'Map of Votes',
     renderOnVisible: true,
     palette: 'modern',
-    choropleth: {
-        map: 'world'
-    }
+    //choropleth: {
+      //  map: 'world'
+    //}
   });
   
   client
