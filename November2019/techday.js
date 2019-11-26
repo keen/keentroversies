@@ -296,11 +296,11 @@ const chart = new KeenDataviz({
             'geo.province'
         ],
         filters: [
-        {
-           propertyName: 'geo.country',
-           operator: 'eq',
-           propertyValue: 'United States',
-        }
+//         {
+//            propertyName: 'geo.country',
+//            operator: 'eq',
+//            propertyValue: 'United States',
+//         }
         {
             "operator": "eq",
             "property_name": "keentroversyId",
