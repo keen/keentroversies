@@ -9,7 +9,7 @@ const geoProject = new KeenAnalysis({
 });
 
 // updated variable
-var keentroversyId = "Nov2019"
+var keentroversyId = "Oct2019"
 
 Keen.ready(function () {
     //------------------
@@ -39,7 +39,7 @@ Keen.ready(function () {
                 }
             ],
 //             timeframe: 'this_30_days'
-               timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+               timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
                timezone: "US/Central"
         })
         .then(function (results){
@@ -76,7 +76,7 @@ Keen.ready(function () {
                 }
             ],
 //             timeframe: 'this_30_days'
-               timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+               timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
                timezone: "US/Central"
         })
         .then(function (results){
@@ -113,7 +113,7 @@ Keen.ready(function () {
                 }
             ],
 //             timeframe: 'this_30_days'
-               timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+               timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
                timezone: "US/Central"
         })
         .then(function (results){
@@ -150,7 +150,7 @@ Keen.ready(function () {
                 }
             ],
 //             timeframe: 'this_30_days'
-               timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+               timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
                timezone: "US/Central"
         })
         .then(function (results){
@@ -186,7 +186,7 @@ Keen.ready(function () {
                 }
             ],
 //             timeframe: 'this_30_days'
-            timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+            timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
             timezone: "US/Central",
             group_by: 'vote'
         })
@@ -224,7 +224,7 @@ Keen.ready(function () {
                 }
             ],
 //             timeframe: 'this_30_days'
-               timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+               timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
                timezone: "US/Central"
         })
         .then(function (results) {
@@ -260,7 +260,7 @@ Keen.ready(function () {
 //                 }
 //             ],
 // //             timeframe: 'this_30_days'
-//             timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+//             timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
 //             timezone: "US/Central",
 //             interval: 'daily'
 //         })
@@ -291,7 +291,7 @@ const chart = new KeenDataviz({
     .query({
         analysis_type: 'count',
         event_collection: 'pageviews',
-        timeframe: {"end":"2019-10-31T00:00:00.000","start":"2019-09-30T00:00:00.000"},
+        timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
         group_by: [
             'geo.country'
         ],
