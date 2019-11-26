@@ -293,7 +293,7 @@ const chart = new KeenDataviz({
         event_collection: 'pageviews',
         timeframe: {"end":"2019-12-31T00:00:00.000","start":"2019-11-25T00:00:00.000"},
         group_by: [
-            'geo.country'
+            'geo.province'
         ],
         filters: [
         {
